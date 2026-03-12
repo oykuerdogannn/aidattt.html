@@ -1,0 +1,175 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#ffffff;
+padding:15px 40px;
+}
+
+.logo h1{
+color:rgb(0, 0, 0);
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-right:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:rgb(0, 0, 0);
+padding:8px 15px;
+transition:0.3s;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+background:rgb(255, 255, 255);
+color:#154f91;
+border-radius:5px;
+}
+
+.btn{
+background:rgb(22, 113, 218);
+color:#ffffff;
+padding:10px 20px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#2b7496;
+}
+
+
+.hero{
+text-align:center;
+padding:80px;
+background:white;
+}
+
+.hero h2{
+font-size:40px;
+text-align: left;
+color: #2c2b2b;
+}
+
+.hero p{
+font-size:25px;
+text-align: left;
+color: #2c2b2b;
+}
+
+.btn2{
+font-size:20px;
+margin-left:0px;
+display:block;
+padding:12px 80px;
+background:#2d89ef;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+}
+
+.stats{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  padding:50px 20px;
+  background:#f9f9f9;
+  gap:20px;
+}
+
+.stat-card{
+  background:white;
+  padding:30px;
+  flex:1 1 200px;
+  max-width:250px;
+  text-align:center;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.icon{
+  font-size:40px;
+  margin-bottom:15px;
+}
+
+.number{
+  font-size:24px;
+  font-weight:600;
+  margin-bottom:5px;
+}
+
+.label{
+  font-size:16px;
+  color:#555;
+}
+
+footer {
+  text-align: center;
+  background: #c5ced8;
+  color: white;
+  padding: 8px 20px;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+footer p, footer a {
+  margin: 0;
+  padding: 0;
+  box-shadow:0 4px 10px rgba(74, 79, 80, 0.1);
+}
+
+.login-box{
+display:none;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+width:300px;
+text-align:center;
+}
+
+.login-box input{
+width:90%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.login-box button{
+padding:10px;
+background:#2d89ef;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.closeBtn{
+background:#999;
+margin-top:10px;
+}
