@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site Yönetimi</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h1>Site Yönetimi</h1>
+</div>
+
+<nav>
+<ul>
+<li><a href="#">Ana Sayfa</a></li>
+<li><a href="#">Başlangıç</a></li>
+<li><a href="#">Fiyatlar</a></li>
+<li><a href="#">Duyurular</a></li>
+<li><a href="#">iletişim</a></li>
+</ul>
+</nav>
+
+<a href="#" class="btn" onclick="openLogin()">Giriş Yap</a>
+
+</header>
+ 
+<div id="loginBox" class="login-box">
+
+<h3>Üye Girişi</h3>
+
+<input type="text" id="username" placeholder="Kullanıcı Adı">
+
+<input type="password" id="password" placeholder="Şifre">
+
+<button onclick="login()">Giriş Yap</button>
+
+<p id="loginMessage"></p>
+
+<button class="closeBtn" onclick="closeLogin()">Kapat</button>
+
+</div>
+
+<section class="hero">
+
+<h2>Apartman, Site, Rezidans <br>Yönetim Programı</br></h2>
+   
+
+
+<p>Site yöneticileri ve profesyonel yönetim şirketleri için<br>geliştirilmiş kolay yönetim, gelir ve gider takibi programı.</br></p>
+    
+
+
+<button class="btn2"><a href="duess.html">Hesaplamaya Geç →</a></button>
+
+<section class="stats">
+
+  <div class="stat-card">
+    <div class="number" data-target="1932">0</div>
+    <div class="label">Site</div>
+  </div>
+
+  <div class="stat-card">
+    <div class="number" data-target="9500">0</div>
+    <div class="label">Konut</div>
+  </div>
+
+  <div class="stat-card">
+    <div class="number" data-target="27959">0</div>
+    <div class="label">Daire Sakini</div>
+  </div>
+
+</section>
+<script src="main.js"></script>
+
+<footer>
+
+<p>© 2026 Site Yönetim Sistemi</p>
+
+</footer>
+</body>
+</html>
